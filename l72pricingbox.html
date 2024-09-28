@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pricing Box</title>
+    <!-- Font Awesome and Tailwind CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-900">
+
+    <!-- Container with White Background -->
+    <div class="flex flex-col items-center justify-center space-y-8 border border-gray-300 rounded-lg p-8 bg-white shadow-lg max-w-lg mx-auto mt-12">
+
+        <!-- Header Section -->
+        <div class="text-center mb-8">
+            <h2 class="text-3xl font-bold text-gray-800">Our Pricing</h2>
+        </div>
+
+        <!-- Standard and Business Plan Container -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
+
+            <!-- Standard Plan Card -->
+            <div class="relative bg-gray-900 p-6 rounded-lg shadow-lg transition duration-300 ease-in-out w-full max-w-xs mx-auto">
+
+                <div class="text-center mb-4">
+                    <h3 class="text-2xl font-semibold text-white">Standard Plan</h3>
+                    <div class="flex justify-center items-baseline">
+                        <p class="text-4xl font-bold text-white">$55</p>
+                        <p class="text-sm text-gray-300 ml-2">/ month</p>
+                    </div>
+                </div>
+
+                <ul class="space-y-2 mb-6 text-gray-300">
+                    <li><i class="fas fa-check-circle text-white-500"></i> 1 Domain Name</li>
+                    <li><i class="fas fa-check-circle text-white-500"></i> 10GB Storage</li>
+                    <li><i class="fas fa-check-circle text-white-500"></i> 100 Email Accounts</li>
+                    <li><i class="fas fa-check-circle text-white-500"></i> SSL Certificate</li>
+                    <li><i class="fas fa-check-circle text-white-500"></i> CPanel Free</li>
+                </ul>
+
+                <button type="button" class="w-full py-2 bg-slate-400 text-gray rounded-md font-semibold hover:bg-slate-700 transition duration-300">Order Now</button>
+
+                <!-- Shadow Divs below the card -->
+                <div class="absolute bottom-[-10px] w-11/12 h-2 bg-gray-700 rounded-b mx-auto opacity-75 left-1/2 transform -translate-x-1/2"></div>
+                <div class="absolute bottom-[-15px] w-10/12 h-2 bg-gray-700 rounded-b mx-auto opacity-55 left-1/2 transform -translate-x-1/2"></div>
+                <div class="absolute bottom-[-20px] w-9/12 h-2 bg-gray-700 rounded-b mx-auto opacity-25 left-1/2 transform -translate-x-1/2"></div>
+            </div>
+
+            <!-- Business Plan Card -->
+            <div class="relative bg-gray-900 p-6 rounded-lg shadow-lg transition duration-300 ease-in-out w-full max-w-xs mx-auto">
+                <div class="text-center mb-4">
+                    <h3 class="text-2xl font-semibold text-white">Business Plan</h3>
+                    <div class="flex justify-center items-baseline">
+                        <p class="text-4xl font-bold text-white">$75</p>
+                        <p class="text-sm text-gray-300 ml-2">/ month</p>
+                    </div>
+                </div>
+
+                <ul class="space-y-2 mb-6 text-gray-300">
+                    <li><i class="fas fa-check-circle text-white-500"></i> 5 Domain Names</li>
+                    <li><i class="fas fa-check-circle text-white-500"></i> 50GB Storage</li>
+                    <li><i class="fas fa-check-circle text-white-500"></i> 500 Email Accounts</li>
+                    <li><i class="fas fa-check-circle text-white-500"></i> SSL Certificate</li>
+                    <li><i class="fas fa-check-circle text-white-500"></i> CPanel Free</li>
+                </ul>
+
+                <button type="button" class="w-full py-2 bg-slate-400 text-gray rounded-md font-semibold hover:bg-slate-700 transition duration-300">Order Now</button>
+
+                <!-- Shadow Divs below the card -->
+                <div class="absolute bottom-[-10px] w-11/12 h-2 bg-gray-700 rounded-b mx-auto opacity-75 left-1/2 transform -translate-x-1/2"></div>
+                <div class="absolute bottom-[-15px] w-10/12 h-2 bg-gray-700 rounded-b mx-auto opacity-55 left-1/2 transform -translate-x-1/2"></div>
+                <div class="absolute bottom-[-20px] w-9/12 h-2 bg-gray-700 rounded-b mx-auto opacity-25 left-1/2 transform -translate-x-1/2"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

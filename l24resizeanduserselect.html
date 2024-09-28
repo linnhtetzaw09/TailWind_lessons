@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Resize and user select</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/css">
+        
+    </style>
+</head>
+<body>
+
+    <h1>This is tailwind css using CDN Link</h1>
+
+    <label for="bio1">Bio</label>
+    <textarea name="bio1" id="bio1" class="resize-none" rows="5"></textarea>
+    <hr/>
+
+    <label for="bio2">Bio</label>
+    <textarea name="bio2" id="bio2" class="resize-x" rows="5"></textarea>
+    <hr/>
+
+    <label for="bio3">Bio</label>
+    <textarea name="bio3" id="bio3" class="resize-y" rows="5"></textarea>
+    <hr/>
+
+    <label for="bio4">Bio</label>
+    <textarea name="bio4" id="bio4" class="resize" rows="5"></textarea>
+    <hr/>
+
+    <p class="select-none">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia consequuntur facere quasi ex alias explicabo, officia unde tempora magnam sapiente numquam dicta eos laborum, distinctio incidunt vel aliquid beatae laboriosam!</p>
+    <hr/>
+
+    <p class="select-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia consequuntur facere quasi ex alias explicabo, officia unde tempora magnam sapiente numquam dicta eos laborum, distinctio incidunt vel aliquid beatae laboriosam!</p>
+    <hr/>
+
+    <p class="select-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia consequuntur facere quasi ex alias explicabo, officia unde tempora magnam sapiente numquam dicta eos laborum, distinctio incidunt vel aliquid beatae laboriosam!</p>
+    <hr/>
+
+    <p class="select-all">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia consequuntur facere quasi ex alias explicabo, officia unde tempora magnam sapiente numquam dicta eos laborum, distinctio incidunt vel aliquid beatae laboriosam!</p>
+    <hr/>
+
+    <select name="city" id="city" class="">
+        <option value="ygn">Yangon</option>
+        <option value="mdy">Mandalay</option>
+        <option value="mgy">Magway</option>
+    </select>
+
+    <select name="city" id="city" class="appearance-none">
+        <option value="jpn">Japan</option>
+        <option value="mm">Myanmar</option>
+        <option value="thai">Thailand</option>
+    </select>
+   
+</body>
+</html>
+
+
+<!--
+
+   resize-none      resize:none;
+   resize-x         resize:horizontal;
+   resize-y         resize:vertical;
+   resize           resize:both;
+
+-->
+
+<!--
+
+   select-none          user-select:none;
+   select-auto         user-select:auto;
+   select-text         user-select:text;
+   select-all           user-select:all;
+
+-->
+
+<!-- appearance-none     appearance:none; -->
+

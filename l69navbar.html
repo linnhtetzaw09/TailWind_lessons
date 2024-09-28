@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-900">
+   
+    <nav class="bg-white p-5 shadow-lg">
+        <div class="flex justify-between items-center">
+            <!-- Logo and Brand Name -->
+            <div class="flex items-center ">
+                <img src="https://www.pngarts.com/files/3/Logo-PNG-Download-Image.png" class="w-12 cursor-pointer" alt="logo">
+                <span class="ml-2 text-xl font-bold text-stone-900 hover:text-blue-500">Nero Smart</span>
+            </div>
+
+            <!-- Hamburger Icon (for mobile) -->
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-2xl text-stone-900">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+            <!-- Navigation Links (Desktop View) -->
+            <ul id="nav-links" class="hidden md:flex space-x-6 text-stone-900">
+                <li><a href="javascript:void(0);" class="hover:text-blue-500 uppercase">Home</a></li>
+                <li><a href="javascript:void(0);" class="hover:text-blue-500 uppercase">News</a></li>
+                <li><a href="javascript:void(0);" class="hover:text-blue-500 uppercase">Pages</a></li>
+                <li><a href="javascript:void(0);" class="hover:text-blue-500 uppercase">About</a></li>
+                <li><a href="javascript:void(0);" class="hover:text-blue-500 uppercase">Contact</a></li>
+                <li><a href="javascript:void(0);" class="bg-violet-700 text-white transition-all duration-500 px-2 py-1">Sign Up</a></li>
+            </ul>
+        </div>
+
+        <!-- Navigation Links (Mobile View) -->
+        <ul id="mobile-nav" class="hidden flex-col mt-4 space-y-2 text-stone-900 md:hidden">
+            <li><a href="javascript:void(0);" class="block text-lg transition-all duration-500 uppercase hover:text-blue-500">Home</a></li>
+            <li><a href="javascript:void(0);" class="block text-lg transition-all duration-500 uppercase hover:text-blue-500">News</a></li>
+            <li><a href="javascript:void(0);" class="block text-lg transition-all duration-500 uppercase hover:text-blue-500">Pages</a></li>
+            <li><a href="javascript:void(0);" class="block text-lg transition-all duration-500 uppercase hover:text-blue-500">About</a></li>
+            <li><a href="javascript:void(0);" class="block text-lg transition-all duration-500 uppercase hover:text-blue-500">Contact</a></li>
+            <li><a href="javascript:void(0);" class="bg-violet-700 text-white transition-all duration-500 px-2 py-1">Sign Up</a></li>
+        </ul>
+    </nav>
+
+    <script type="text/javascript">
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileNav = document.getElementById('mobile-nav');
+
+        menuBtn.addEventListener('click', () => {
+            mobileNav.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>

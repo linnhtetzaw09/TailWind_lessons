@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Order</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/css">
+
+        .box{
+            display: flex;
+            background-color: silver;
+        }
+
+        .box1{
+            display: flex;
+            flex-direction: column;
+            background-color: silver;
+        }
+
+        .color1{
+            width: 100px;
+            height: 100px;
+            background-color: #000;
+            color: #fff;
+        }
+
+        .color2{
+            width: 100px;
+            height: 100px;
+            background-color: skyblue;
+            color: #fff;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <h1>This is tailwind css using CDN Link</h1>
+
+    <div class="box">
+
+        <div class="color1 order-2">Div1 </div>
+        <div class="color2 order-1">Div2 </div>
+        <div class="color1 order-8">Div3 </div>
+        <div class="color2 order-4">Div4 </div>
+        <div class="color1 order-3">Div5 </div>
+        <div class="color2 order-9">Div6 </div>
+        <div class="color1 order-last">Div7 </div>
+        <div class="color2 order-7">Div8 </div>
+        <div class="color1 order-6">Div9 </div>
+        <div class="color2 order-7">Div10 </div>
+        <div class="color1 order-11">Div11 </div>
+        <div class="color2 order-5">Div12 </div>
+        <div class="color1 order-first">Div13 </div>
+        <div class="color2 order-10">Div14 </div>
+
+        <div class="color1 order-14">Div15 </div>
+        <div class="color1 order-13">Div16 </div>
+        <div class="color1 order-15">Div17 </div>
+
+    </div>
+
+    <div class="box1">
+
+        <div class="color1 order-2">Div1 </div>
+        <div class="color2 order-1">Div2 </div>
+        <div class="color1 order-8">Div3 </div>
+        <div class="color2 order-4">Div4 </div>
+        <div class="color1 order-3">Div5 </div>
+        <div class="color2 order-9">Div6 </div>
+        <div class="color1 order-last">Div7 </div>
+        <div class="color2 order-7">Div8 </div>
+        <div class="color1 order-6">Div9 </div>
+        <div class="color2 order-7">Div10 </div>
+        <div class="color1 order-11">Div11 </div>
+        <div class="color2 order-5">Div12 </div>
+        <div class="color1 order-first">Div13 </div>
+        <div class="color2 order-10">Div14 </div>
+
+        <div class="color1 order-14">Div15 </div>
+        <div class="color1 order-13">Div16 </div>
+        <div class="color1 order-15">Div17 </div>
+
+    </div>
+
+
+    
+
+</body>
+</html>
+
+
+<!--
+
+   order-1         order:1;
+    ......
+   order-12         order:12;
+
+   order-first        order:-9999;
+   order-last         order:9999;
+   order-none         order:0;
+
+   
+   
+-->
+
+
+

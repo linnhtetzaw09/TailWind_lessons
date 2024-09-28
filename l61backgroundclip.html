@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Background Clip</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <h1>This is Tailwind CSS using CDN Link</h1>
+
+    <div class="w-40 h-40 bg-violet-900 border-8 border-yellow-500 border-dashed bg-clip-border my-3 p-5">Box 1</div>
+    <hr class="my-5"/>
+
+    <div class="w-40 h-40 bg-violet-900 border-8 border-yellow-500 border-dashed bg-clip-padding my-3 p-5">Box 2</div>
+    <hr class="my-5"/>
+
+    <div class="w-40 h-40 bg-violet-900 border-8 border-yellow-500 border-dashed bg-clip-content my-3 p-5">Box 3</div>
+    <hr class="my-5"/>
+
+    <div class="w-40 h-40 bg-violet-900 border-8 border-yellow-500 border-dashed bg-clip-text text-transparent my-3 p-5">
+        Box 4
+    </div>
+    <hr class="my-5"/>
+
+    <div class="text-5xl text-transparent bg-clip-text font-extrabold bg-gradient-to-l from-pink-500 to-blue-500">
+        <p>Save Myanmar</p>
+        <p>Save Thailand</p>
+        <p>Fight to Japu, Attack to Japu</p>
+    </div>
+    <hr class="my-5"/>
+
+    <div class="text-6xl font-extrabold">
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-pink-500">Hello Myanmar</span>
+        <br/>
+        <span class="text-transparent bg-clip-text bg-gradient-to-l from-violet-500 via-rose-400 to-pink-500">Hello India</span>
+    </div>
+    <hr class="my-5"/>
+
+
+    <div class="text-6xl font-extrabold">
+        <span class="bg-gradient-to-r from-violet-500 to-pink-500 box-decoration-slice">Save Myanmar <br/> Pray Myanmar</span>
+        <hr class="my-5"/>
+        <span class="bg-gradient-to-l from-violet-500 to-pink-500 box-decoration-clone">Save India <br/> Pray India</span>
+    </div>
+    <hr class="my-5"/>
+
+</body>
+</html>
+
+
+
+<!--
+
+bg-clip-border          background-clip:border-box;
+bg-clip-padding         background-clip:padding-box;
+bg-clip-content         background-clip:content-box;
+bg-clip-text            background-clip:text;
+
+-->
+
+<!--
+
+box-decoration-clone          box-decoration-break:clone;
+box-decoration-slice          box-decoration-break:slice;
+
+-->
