@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calendar</title>
+    <!-- Font Awesome and Tailwind CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-100">
+
+    <div class="h-screen flex justify-center items-center px-5">
+
+        <!-- Calendar Container -->
+        <div class="w-[700px] bg-[#f4f4f4] rounded-xl shadow-lg p-6">
+
+            <!-- Header Section -->
+            <div class="flex justify-between items-center px-4 py-8">
+                <!-- Month Title -->
+                <div>
+                    <span class="font-semibold text-xl text-gray-800">June 2023</span>
+                </div>
+                <!-- Navigation Buttons -->
+                <div>
+                    <button type="button" class="px-3 py-1 text-gray-800 hover:text-stone-500">Previous</button>
+                    <button type="button" class="px-3 py-1 text-gray-800 hover:text-stone-500">Next</button>
+                </div>
+            </div>
+
+            <!-- Calendar Table -->
+            <div class="w-full">
+                <table class="w-full text-center">
+                    <thead>
+                        <tr class="text-gray-600">
+                            <th class="py-2">Sun</th>
+                            <th class="py-2">Mon</th>
+                            <th class="py-2">Tue</th>
+                            <th class="py-2">Wed</th>
+                            <th class="py-2">Thu</th>
+                            <th class="py-2">Fri</th>
+                            <th class="py-2">Sat</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-400 cursor-pointer">28</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-400 cursor-pointer">29</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-400 cursor-pointer">30</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-400 cursor-pointer">31</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">1</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">2</div>
+                            </td>
+                            <td class="pt-6">
+                                <a href="javascript:void(0);" class="inline-flex items-center justify-center w-8 h-8 bg-indigo-700 text-white font-medium rounded-full cursor-pointer hover:bg-violet-700">
+                                    3
+                                </a>
+                            </td>                            
+                            
+                        </tr>
+                        <tr>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">4</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">5</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">6</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">7</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">8</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">9</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">10</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">11</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">12</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">13</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">14</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">15</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">16</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">17</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">18</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">19</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">20</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">21</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">22</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">23</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">24</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">25</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">26</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">27</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">28</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">29</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-800 cursor-pointer">30</div>
+                            </td>
+                            <td class="pt-6">
+                                <div class="w-full text-gray-400 cursor-pointer">1</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
