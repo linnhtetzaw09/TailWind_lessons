@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blog Example 7</title>
+    <!-- Font Awesome and Tailwind CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-100">
+
+    <!-- start header section -->
+     <header>
+        <nav class="container mx-auto p-6">
+            <div class="flex justify-between my-6">
+
+                <!-- logo -->
+                <div class="flex items-center">
+                    <img src="./img/img/fav/favicon.png" id="logo" class="w-16 mr-5" alt="favicon"> <h2>Lynn Photo Studio</h2>
+                </div>
+                <!-- menu -->
+                <div class="hidden uppercase items-center space-x-10 md:flex">
+                    <a href="javascript:void(0);" class="tracking-widest hover:text-slate-900">Locations</a>
+                    <a href="javascript:void(0);" class="tracking-widest hover:text-slate-900">Equipments</a>
+                    <a href="javascript:void(0);" class="tracking-widest hover:text-slate-900">Blog</a>
+                    <a href="javascript:void(0);" class="tracking-widest hover:text-slate-900">FAQ</a>
+                    <a href="javascript:void(0);" class="tracking-widest hover:text-slate-900">Signup</a>
+                    <a href="javascript:void(0);" class="tracking-widest hover:text-slate-900">Signin</a>
+                    <a href="javascript:void(0);" class="login-btn">Login</a>
+                </div>
+
+                <!-- burger button -->
+                <button type="button" id="menu-btn" class="block md:hidden focus:outline-none burger-btn z-50">
+                    <span class="line1"></span>
+                    <span class="line2"></span>
+                    <span class="line3"></span>
+                </button>
+
+            </div>
+
+            <!-- small size burger menu -->
+            <div id="dropdownmenu" class="hidden w-full h-full bg-slate-300 text-white uppercase tracking-widest fixed inset-0 z-20 px-6 py-1 opacity-90">
+                <div class="text-center py-3"><a href="javascript:void(0);" class=" hover:">Locations</a></div>
+                <div class="text-center py-3"><a href="javascript:void(0);" class=" hover:">Equipments</a></div>
+                <div class="text-center py-3"><a href="javascript:void(0);" class=" hover:">Blog</a></div>
+                <div class="text-center py-3"><a href="javascript:void(0);" class=" hover:">FAQ</a></div>
+                <div class="text-center py-3"><a href="javascript:void(0);" class=" hover:">Signup</a></div>
+                <div class="text-center py-3"><a href="javascript:void(0);" class=" hover:">Signin</a></div>
+            </div>
+            
+        </nav>
+     </header>
+    <!-- end header section -->
+
+    <!-- start banner section -->
+     <section>
+        <div class="container flex flex-col-reverse md:flex-row mx-auto p-6">
+
+            <div class=" space-y-10 md:w-1/2 md:mt-16">
+                <h1 class="font-semibold text-center text-lg lg:text-left lg:text-3xl">That's Your The Best Studio</h1>
+                <p class="max-w-md text-gray-500 text-center text-base md:text-left lg:text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum non at quis minus corporis beatae ut, velit id necessitatibus quo possimus, similique dolorum voluptas! Hic eos aperiam excepturi sapiente quia.</p>
+
+                <div class="flex justify-center md:justify-start space-x-4">
+                    <a href="javascript:void(0);" class="bg-indigo-500 text-white text-sm font-semibold rounded shadow-md border-primary hover:bg-white hover:text-indigo-600 p-4">Quotation</a>
+                    <a href="javascript:void(0);" class="bg-gray-300 text-white text-sm font-semibold rounded shadow-md border-primary hover:bg-white hover:text-gray-600 p-4">Find Out</a>
+                </div>
+            </div>
+
+            <div class="md:w-1/2 mx-auto mb-5 md:mb-0 md:mx-0">
+                <img src="./img/img/etc/camera.png" class="w-[550px]" alt="camera">
+            </div>
+
+        </div>
+     </section>
+    <!-- end banner section -->
+
+    <!-- start signup section -->
+     <section class="container bg-blue-600 mx-auto px-8 py-[20px] md:py-[60px]">
+        <div class="flex flex-wrap items-center space-y-5">
+
+            <div class="w-full md:w-1/2">
+                <span class="text-base font-medium text-white">Find Your Next Dream Picture</span>
+                <h2 class="text-3xl font-bold text-white">Get Started With Our Studio</h2>
+            </div>
+
+            <div class="w-full md:w-1/2">
+                <div class="flex md:justify-end">
+                    <a href="javascript:void(0);" class="bg-indigo-500 text-white text-sm font-semibold rounded shadow-md border-primary hover:bg-white hover:text-indigo-600 p-4 mr-4">Show Me</a>
+                    <a href="javascript:void(0);" class="bg-gray-300 text-white text-sm font-semibold rounded shadow-md border-primary hover:bg-white hover:text-gray-600 p-4">Signup</a>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- end signup section -->
+
+    <!-- start FAQ section -->
+     <section class="p-5">
+        <div class="container mx-auto">
+            <div class="w-full">
+
+                <div class="border-b py-1 group" tabindex="1">
+                    <div class="text-gray-500 cursor-pointer flex justify-between items-center py-3">
+                        <h2 class="group-hover:text-red-500">Photography & Film Studio?</h2>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+    
+                    <div class="max-h-0 overflow-hidden group-focus:max-h-screen">
+                        <p class="text-gray-400 text-justify py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatem dolorem iure veniam, voluptatibus cumque similique enim excepturi dicta aut qui, debitis ab tempora, illo velit rerum maxime tenetur iusto.</p>
+                    </div>
+                </div>
+
+                <div class="border-b py-1 group" tabindex="2">
+                    <div class="text-gray-500 cursor-pointer flex justify-between items-center py-3">
+                        <h2 class="group-hover:text-red-500">Studio Photography & Videography ?</h2>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+    
+                    <div class="max-h-0 overflow-hidden group-focus:max-h-screen">
+                        <p class="text-gray-400 text-justify py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatem dolorem iure veniam, voluptatibus cumque similique enim excepturi dicta aut qui, debitis ab tempora, illo velit rerum maxime tenetur iusto.</p>
+                    </div>
+                </div>
+
+                <div class="border-b py-1 group" tabindex="3">
+                    <div class="text-gray-500 cursor-pointer flex justify-between items-center py-3">
+                        <h2 class="group-hover:text-red-500">Photography / Film Studio?</h2>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+    
+                    <div class="max-h-0 overflow-hidden group-focus:max-h-screen">
+                        <p class="text-gray-400 text-justify py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatem dolorem iure veniam, voluptatibus cumque similique enim excepturi dicta aut qui, debitis ab tempora, illo velit rerum maxime tenetur iusto.</p>
+                    </div>
+                </div>
+
+                <div class="border-b py-1 group" tabindex="4">
+                    <div class="text-gray-500 cursor-pointer flex justify-between items-center py-3">
+                        <h2 class="group-hover:text-red-500">Luxuary Daylight Photo & Content Studio?</h2>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+    
+                    <div class="max-h-0 overflow-hidden group-focus:max-h-screen">
+                        <p class="text-gray-400 text-justify py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatem dolorem iure veniam, voluptatibus cumque similique enim excepturi dicta aut qui, debitis ab tempora, illo velit rerum maxime tenetur iusto.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+     </section>
+    <!-- end FAQ section -->
+
+    <!-- start component section -->
+     <section class="py-5">
+        <div class="container mx-auto">
+            <div class="flex" style="height: 300px;">
+
+                <div class="md:w-1/2 text-center flex items-center md:text-left px-8 md:px-12">
+                    <div >
+                        <h2 class="text-gray-800 font-semibold md:text-3xl">Build Your New <span class="text-indigo-700">Idea Picture</span></h2>
+                        <p class="text-gray-500 text-sm md:text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit perspiciatis quidem necessitatibus facere. Vero minus delectus nesciunt odio.</p>
+                        <div class="flex justify-center md:justify-start mt-6">
+                            <a href="javascript:void(0);" class="bg-gray-900 text-gray-300 text-sm font-semibold rounded shadow-md hover:bg-gray-700 p-4 py-3 mx-4">Show Me</a>
+                            <a href="javascript:void(0);" class="bg-gray-300 text-gray-900 text-sm font-semibold rounded shadow-md hover:bg-gray-400 p-4 py-3">Signup</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hidden md:block md:w-1/2" style="clip-path: polygon(20% 0, 100% 0%, 100% 100%, 0% 100%);">
+                    <div class="h-full object-cover" style="background-image: url(https://png.pngtree.com/background/20230412/original/pngtree-nature-forest-sun-ecology-picture-image_2394782.jpg );">
+                        <div class="h-full bg-black opacity-25"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+     </section>
+    <!-- end component section -->
+
+    <!-- start service section -->
+    <section>
+        <div class="container px-6 py-4 mx-auto">
+            <div class="grid gap-6 mb-8 md:grid-cols-4">
+
+                <div class="bg-white border-2 border-gray-200 rounded-lg shadow flex items-center p-4">
+                    <div class="bg-blue-600 text-white rounded-full p-3 mr-4">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <div>
+                        <span class="block text-gray-900 text-sm font-medium mb-3">Transportation</span>
+                        <span class="block text-gray-900 text-sm font-normal">Service for Wedding</span>
+                    </div>
+                </div>
+
+                <div class="bg-white border-2 border-gray-200 rounded-lg shadow flex items-center p-4">
+                    <div class="bg-blue-600 text-white rounded-full p-3 mr-4">
+                        <i class="fas fa-cash-register"></i>
+                    </div>
+                    <div>
+                        <span class="block text-gray-900 text-sm font-medium mb-3">Payment</span>
+                        <span class="block text-gray-900 text-sm font-normal">Any Kind of Online Payments</span>
+                    </div>
+                </div>
+
+                <div class="bg-white border-2 border-gray-200 rounded-lg shadow flex items-center p-4">
+                    <div class="bg-blue-600 text-white rounded-full p-3 mr-4">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div>
+                        <span class="block text-gray-900 text-sm font-medium mb-3">Cash Back 40%</span>
+                        <span class="block text-gray-900 text-sm font-normal">Service for Wedding</span>
+                    </div>
+                </div>
+
+                <div class="bg-white border-2 border-gray-200 rounded-lg shadow flex items-center p-4">
+                    <div class="bg-blue-600 text-white rounded-full p-3 mr-4">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div>
+                        <span class="block text-gray-900 text-sm font-medium mb-3">Online Storage</span>
+                        <span class="block text-gray-900 text-sm font-normal">1 Year Cloud Provide</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+   <!-- end service section -->
+
+    <!-- start footer section -->
+     <footer class="w-full bg-black py-8">
+        <div class="container space-y-16 flex flex-col justify-between items-center md:flex-row md:space-y-0 mx-auto">
+            <div class="text-white flex space-x-10">
+                <a href="javascript:void(0);" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="javascript:void(0);" target="_blank"><i class="fab fa-google"></i></a>
+                <a href="javascript:void(0);" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+
+            <div class="text-gray-400 font-light space-y-6 flex flex-col justify-between items-center md:flex-row md:space-x-14">
+                <img src="./img/img/fav/favicon.png" class="w-16" alt="favicon">
+                <a href="javascript:void(0);" class="uppercase text-sm hover:text-red-600">Locations</a>
+                <a href="javascript:void(0);" class="uppercase text-sm hover:text-red-600">Equipments</a>
+                <a href="javascript:void(0);" class="uppercase text-sm hover:text-red-600">Blog</a>
+                <a href="javascript:void(0);" class="uppercase text-sm hover:text-red-600">FAQ</a>
+            </div>
+        </div>
+     </footer>
+    <!-- end footer section -->
+   
+</body>
+</html>
+

@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blog Example 5</title>
+    <!-- Font Awesome and Tailwind CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-100">
+
+    <!-- Start header -->
+    <header class="">
+
+        <nav class="w-full absolute left-0 top-0 z-10 px-2 py-3">
+            <div class="container flex flex-wrap justify-between items-center mx-auto">
+    
+                <!-- Logo -->
+                <div class="w-auto">
+                    <a href="javascript:void(0);" class="text-white uppercase text-sm font-bold py-2">
+                        Tailwind Rock Star
+                    </a>
+                </div>
+    
+                <!-- Navigation Links -->
+                <div class="hidden lg:flex lg:bg-transparent">
+
+                    <ul class="list-none">
+                        <li>
+                            <a href="javascript:void(0);" class="text-white font-bold uppercase px-3 py-2">
+                                <i class="far fa-file-alt text-lg mr-2"></i> Docs
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <ul class="list-none flex flex-row items-center">
+                        <li>
+                            <a href="javascript:void(0);" class="text-white font-bold px-3 py-2">
+                                <i class="fab fa-facebook text-lg"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="text-white font-bold px-3 py-2">
+                                <i class="fab fa-twitter text-lg"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="text-white font-bold px-3 py-2">
+                                <i class="fab fa-linkedin text-lg"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <button type="button" class="bg-white text-gray-800 text-xs font-bold uppercase rounded outline-none px-4 py-2 ml-3">
+                                Register
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+    
+            </div>
+        </nav>
+    
+        <!-- Hero Section -->
+        <div class="flex justify-center items-center relative" style="min-height: 75vh;">
+    
+            <!-- Background Image -->
+            <div class="w-full h-full absolute left-0 top-0 bg-center bg-cover" style="background-image: url('https://www.freepik.com/free-vector/blue-copy-space-digital-background_12067358.htm#fromView=keyword&page=1&position=17&uuid=caa9e26e-d6cb-49e4-b3d3-37880bed2cbe');">
+                <span class="w-full h-full bg-black absolute opacity-55"></span>
+            </div>
+    
+            <!-- Content -->
+            <div class="container relative">
+                <div class="text-center">
+                    <div class="w-6/12 mx-auto">
+                        <h1 class="text-white text-5xl font-bold mb-4">Build Your Dream Job with Us</h1>
+                        <p class="text-gray-300 text-lg">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos facere odio laborum ratione voluptatibus temporibus vitae saepe blanditiis, perferendis exercitationem dolor corrupti, quasi inventore praesentium non deserunt quod doloremque facilis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+
+        <div class=" -mt-24 relative">
+            <div class="container px-4 mx-auto">
+
+                <div class="flex flex-wrap">
+
+                    <div class="w-full md:w-4/12 text-center px-4 pt-12">
+                        <div class="bg-white rounded-lg shadow-lg px-4 py-5">
+                            <div class="w-12 h-12 bg-red-400 text-white rounded-full shadow-lg inline-flex justify-center items-center">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h5 class="text-xl font-semibold">User Agents</h5>
+                            <p class="text-gray-600 mt-2 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                    <div class="w-full md:w-4/12 text-center px-4">
+                        <div class="bg-white rounded-lg shadow-lg px-4 py-5">
+                            <div class="w-12 h-12 bg-blue-400 text-white rounded-full shadow-lg inline-flex justify-center items-center">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h5 class="text-xl font-semibold">White Papers</h5>
+                            <p class="text-gray-600 mt-2 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                    <div class="w-full md:w-4/12 text-center px-4 pt-12">
+                        <div class="bg-white rounded-lg shadow-lg px-4 py-5">
+                            <div class="w-12 h-12 bg-green-400 text-white rounded-full shadow-lg inline-flex justify-center items-center">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h5 class="text-xl font-semibold">Verified Certificate</h5>
+                            <p class="text-gray-600 mt-2 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    
+    </header>
+    
+    <!-- End header -->
+
+    <!-- Start content -->
+     <section class="bg-gray-300 -mt-5 pt-5">
+        <div class="container px-4 mx-auto">
+
+            <div class="flex flex-wrap">
+
+                <div class="w-full md:w-8/12 mb-4">
+
+                    <div class="grid md:grid-cols-3 sm:grid-cols-2 gap-3">
+
+                        <div class="rounded shadow-lg">
+
+                            <div class="relative">
+                                <img src="https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="" alt="nature">
+
+                                <a href="javascript:void(0);">
+                                    <div class="bg-indigo-600 text-white text-sm absolute left-0 bottom-0 px-4 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out py-2">
+                                        Nature
+                                    </div>
+                                </a>
+
+                                <a href="javascript:void(0);">
+                                    <div class="w-16 h-16 bg-indigo-600 text-white rounded-full text-sm absolute top-0 right-0 flex flex-col items-center justify-center mt-3 mr-3 px-4 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out py-2">
+                                        <span>27</span>
+                                        <small>Dec</small>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="px-6 py-1">
+                                <a href="javascript:void(0);" class="font-bold text-lg hover:text-indigo-600 transition duration-500 ease-in-out">This is new post one</a>
+                                <p class="text-gray-500 text-sm">Lorem Ipsum is simply dummy text...</p>
+                            </div>
+
+                            <div class="px-4 pb-4">
+                                <i class="fas fa-calendar-alt mr-1"></i>
+                                <span>2 days ago</span>
+                            </div>
+
+                        </div>
+
+                        <div class="rounded shadow-lg">
+
+                            <div class="relative">
+                                <img src="https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="" alt="nature">
+
+                                <a href="javascript:void(0);">
+                                    <div class="bg-indigo-600 text-white text-sm absolute left-0 bottom-0 px-4 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out py-2">
+                                        Nature
+                                    </div>
+                                </a>
+
+                                <a href="javascript:void(0);">
+                                    <div class="w-16 h-16 bg-indigo-600 text-white rounded-full text-sm absolute top-0 right-0 flex flex-col items-center justify-center mt-3 mr-3 px-4 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out py-2">
+                                        <span>27</span>
+                                        <small>Dec</small>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="px-6 py-1">
+                                <a href="javascript:void(0);" class="font-bold text-lg hover:text-indigo-600 transition duration-500 ease-in-out">This is new post one</a>
+                                <p class="text-gray-500 text-sm">Lorem Ipsum is simply dummy text...</p>
+                            </div>
+
+                            <div class="px-4 pb-4">
+                                <i class="fas fa-calendar-alt mr-1"></i>
+                                <span>2 days ago</span>
+                            </div>
+
+                        </div>
+
+                        <div class="rounded shadow-lg">
+
+                            <div class="relative">
+                                <img src="https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="" alt="nature">
+
+                                <a href="javascript:void(0);">
+                                    <div class="bg-indigo-600 text-white text-sm absolute left-0 bottom-0 px-4 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out py-2">
+                                        Nature
+                                    </div>
+                                </a>
+
+                                <a href="javascript:void(0);">
+                                    <div class="w-16 h-16 bg-indigo-600 text-white rounded-full text-sm absolute top-0 right-0 flex flex-col items-center justify-center mt-3 mr-3 px-4 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out py-2">
+                                        <span>27</span>
+                                        <small>Dec</small>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="px-6 py-1">
+                                <a href="javascript:void(0);" class="font-bold text-lg hover:text-indigo-600 transition duration-500 ease-in-out">This is new post one</a>
+                                <p class="text-gray-500 text-sm">Lorem Ipsum is simply dummy text...</p>
+                            </div>
+
+                            <div class="px-4 pb-4">
+                                <i class="fas fa-calendar-alt mr-1"></i>
+                                <span>2 days ago</span>
+                            </div>
+
+                        </div>
+
+                        <div class="rounded shadow-lg">
+
+                            <div class="relative">
+                                <img src="https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="" alt="nature">
+
+                                <a href="javascript:void(0);">
+                                    <div class="bg-indigo-600 text-white text-sm absolute left-0 bottom-0 px-4 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out py-2">
+                                        Nature
+                                    </div>
+                                </a>
+
+                                <a href="javascript:void(0);">
+                                    <div class="w-16 h-16 bg-indigo-600 text-white rounded-full text-sm absolute top-0 right-0 flex flex-col items-center justify-center mt-3 mr-3 px-4 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out py-2">
+                                        <span>27</span>
+                                        <small>Dec</small>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="px-6 py-1">
+                                <a href="javascript:void(0);" class="font-bold text-lg hover:text-indigo-600 transition duration-500 ease-in-out">This is new post one</a>
+                                <p class="text-gray-500 text-sm">Lorem Ipsum is simply dummy text...</p>
+                            </div>
+
+                            <div class="px-4 pb-4">
+                                <i class="fas fa-calendar-alt mr-1"></i>
+                                <span>2 days ago</span>
+                            </div>
+
+                        </div>
+
+                        <div class="rounded shadow-lg">
+
+                            <div class="relative">
+                                <img src="https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="" alt="nature">
+
+                                <a href="javascript:void(0);">
+                                    <div class="bg-indigo-600 text-white text-sm absolute left-0 bottom-0 px-4 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out py-2">
+                                        Nature
+                                    </div>
+                                </a>
+
+                                <a href="javascript:void(0);">
+                                    <div class="w-16 h-16 bg-indigo-600 text-white rounded-full text-sm absolute top-0 right-0 flex flex-col items-center justify-center mt-3 mr-3 px-4 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out py-2">
+                                        <span>27</span>
+                                        <small>Dec</small>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="px-6 py-1">
+                                <a href="javascript:void(0);" class="font-bold text-lg hover:text-indigo-600 transition duration-500 ease-in-out">This is new post one</a>
+                                <p class="text-gray-500 text-sm">Lorem Ipsum is simply dummy text...</p>
+                            </div>
+
+                            <div class="px-4 pb-4">
+                                <i class="fas fa-calendar-alt mr-1"></i>
+                                <span>2 days ago</span>
+                            </div>
+
+                        </div>
+
+                        <div class="rounded shadow-lg">
+
+                            <div class="relative">
+                                <img src="https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="" alt="nature">
+
+                                <a href="javascript:void(0);">
+                                    <div class="bg-indigo-600 text-white text-sm absolute left-0 bottom-0 px-4 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out py-2">
+                                        Nature
+                                    </div>
+                                </a>
+
+                                <a href="javascript:void(0);">
+                                    <div class="w-16 h-16 bg-indigo-600 text-white rounded-full text-sm absolute top-0 right-0 flex flex-col items-center justify-center mt-3 mr-3 px-4 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out py-2">
+                                        <span>27</span>
+                                        <small>Dec</small>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="px-6 py-1">
+                                <a href="javascript:void(0);" class="font-bold text-lg hover:text-indigo-600 transition duration-500 ease-in-out">This is new post one</a>
+                                <p class="text-gray-500 text-sm">Lorem Ipsum is simply dummy text...</p>
+                            </div>
+
+                            <div class="px-4 pb-4">
+                                <i class="fas fa-calendar-alt mr-1"></i>
+                                <span>2 days ago</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <div class="w-full md:3/12 ml-auto">
+                    <div class="bg-pink-600 rounded-lg shadow-lg">
+                        <img src="https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="w-full rounded-t-lg" alt="nature">
+                        <div class="text-white p-6">
+                            <h4 class="text-xl font-bold">What is Lorem Ipsum?</h4>
+                            <p class="text-md font-light mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+     </section>
+
+     <section class="bg-gray-900 mt-4">
+        <div class="container py-10 mx-auto">
+
+            <div class="flex flex-wrap justify-center items-center text-center">
+
+                <div class="w-full md:w-4/12 text-center px-4 py-12 relative">
+                    <h2 class="text-white text-4xl font-semibold">Find More Services</h2>
+                    <p class="text-gray-500 text-lg mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                </div>
+
+                <div class="w-full md:w-4/12 text-center px-4 relative">
+
+                    <div class="w-12 h-12 bg-white text-gray-900 rounded-full flex justify-center items-center ">
+                        <i class="fas fa-poll fa-2x"></i>
+                    </div>
+
+                    <h6 class="text-white text-xl font-semibold mt-5">Excellent Services</h6>
+                    <p class="text-gray-500">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                </div>
+
+                <div class="w-full md:w-4/12 text-center px-4 py-12 relative">
+
+                    <div class="w-12 h-12 bg-white text-gray-900 rounded-full flex justify-center items-center ">
+                        <i class="fas fa-lightbulb fa-2x"></i>
+                    </div>
+
+                    <h6 class="text-white text-xl font-semibold mt-5">Excellent Services</h6>
+                    <p class="text-gray-500">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                </div>
+
+            </div>
+
+        </div>
+     </section>
+    <!-- End content -->
+
+    <!-- Start footer -->
+     <footer class="bg-gray-300 pt-8 pb-6">
+        <div class="container mx-auto">
+            <div class="flex">
+
+                <div class="w-full md:w-6/12">
+                    <h4>Let's keep in touch</h4>
+                    <h5>Find us on any of these platforms, we respond 1-2 business days.</h5>
+                </div>
+
+                <div class="w-full md:w-6/12">
+                    <div class="flex flex-wrap">
+
+                        <div class="w-full md:w-6/12">
+                            <h5 class="text-gray-600 text-md font-semibold uppercase">Useful Links</h5>
+                            <ul class="list-none">
+                                <li><a href="javascript:void(0);" class="text-gray-700 text-sm font-semibold hove:text-gray-900">About Us</a></li>
+                                <li><a href="javascript:void(0);" class="text-gray-700 text-sm font-semibold hove:text-gray-900">Blog</a></li>
+                                <li><a href="javascript:void(0);" class="text-gray-700 text-sm font-semibold hove:text-gray-900">Github</a></li>
+                                <li><a href="javascript:void(0);" class="text-gray-700 text-sm font-semibold hove:text-gray-900">Free Products</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="w-full md:w-6/12">
+                            <h5 class="text-gray-600 text-md font-semibold uppercase">Other Resources</h5>
+                            <ul class="list-none">
+                                <li><a href="javascript:void(0);" class="text-gray-700 text-sm font-semibold hove:text-gray-900">MIT License</a></li>
+                                <li><a href="javascript:void(0);" class="text-gray-700 text-sm font-semibold hove:text-gray-900">Terms & Conditions</a></li>
+                                <li><a href="javascript:void(0);" class="text-gray-700 text-sm font-semibold hove:text-gray-900">Privacy Policy</a></li>
+                                <li><a href="javascript:void(0);" class="text-gray-700 text-sm font-semibold hove:text-gray-900">Contact Us</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="border-gray-400">
+
+            <div class="text-center text-gray-600 font-semibold text-sm py-1">
+                <p>Copyright &copy; 2024 Tailwind Rockstar by ABC Co.,Ltd</p>
+            </div>
+
+        </div>
+     </footer>
+    <!-- End footer -->
+   
+</body>
+</html>
+
+
+
+
+
+// get positive value for N
+int n;
+do 
+{
+    n = get_int("n: ");   
+}
+while (n < 0);
+
+// print factorial
+printf("%i \n", factorial(n));
+
+
+// Base case
+if( n == 1)
+{
+    return 1;
+}
+
+
+// Recursive case
+return n * factorial(n-1);
+
+
+
+
+
+
+
+
+
+
+
+
+for (int i = 0; i < candidate_count;i++)
+{
+    if(strcmp(name = ))
+}
+
+// function add_pairs
+
+int strength;
+for (int i = 0; i < candidate_count - 1; i++)
+{
+    for (int j = i + 1; j < candidate_count; j++)
+    {
+        strength = preferences[i][j] - prefenences[j][i];
+        if(strength > 0)
+        {
+            pairs[pair_count].winner = i;
+            pairs[pair_count].loser = j;
+            pair_count++;
+        }
+        else if (strength < 0)
+        {
+            pairs[pair_count].winner = j;
+            pairs[pair_count].loser = i;
+            pair_count++;
+        }
+    }
+}
+return;
+
+
+
+bool cycle(int winner, int loser)
+{
+    if(loser == winner)
+    {
+        return true;
+    }
+    for(int i = 0; i < candidate_count;i++)
+    {
+        if(locked[loser][i] == true)
+        {
+            return true;
+        }
+    }
+}
